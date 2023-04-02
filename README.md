@@ -11,6 +11,7 @@ _Scikit-learn features include:_
 5) Regression (Logistic and Linear Regression inclusive)
 
 _Use of Scikit-Learn_
+
 Scikit-learn allows us to define machine learning algorithms and compare them to one another, as well as offers tools to preprocess data. K-means clustering, Random Forests, Support Vector Machines, and any other machine learning model that we might want to develop are all included in Scikit-learn.
 Scikit-learn’s true strength resides in its model assessment and selection architecture, which allows us to cross-validate and perform multiple hyperparameter searches on our models. Scikit-learn also helps us choose the best model for our work.
 
@@ -30,6 +31,7 @@ TensorFlow is a Google-maintained open-source framework for prototyping and asse
 TensorFlow organizes low-level numerical programming in a high-level and abstract manner. It also supports libraries that allow our applications to run on a standard CPU without modification. Linux, Android, macOS, and Windows are among TensorFlow’s supported systems. The Google Cloud Machine Learning Engine can also run TensorFlow models without the use of a traditional computing platform.
 
 _Use of TensorFlow_
+
 Although TensorFlow is generally linked with neural networks, it is well-tuned for any of the machine learning methods that employ gradients in general (such as Boosted Trees). TensorFlow also offers TensorBoard, a visualization tool for comparing and tracking our learned models.
 TensorFlow's attractiveness stems from its speed and neural network optimization. Very few frameworks can match TensorFlow's ability to run models on GPUs, CPUs, GPUs, and TPUs.
 
@@ -47,4 +49,3 @@ _Cons_
 3) OpenCL is not supported.
 4) Because of TensorFlow’s unique structure, it is tough to discover and troubleshoot errors.
 5) TensorFlow lags in the area of computational speed because we focus on the production environment rather than performance.
-
